@@ -1,0 +1,155 @@
+*{margin:0;padding:0;}
+
+.clear{clear: both;}
+
+ul a{text-decoration: none;}
+
+a{
+  outline: none;                                  /* for Firefox Google Chrome  */
+  behavior:expression(this.onFocus=this.blur());  /* for IE */
+  text-decoration: none
+}
+
+table{
+font-family:'標楷體';
+}
+
+#wrapper{
+width:960px;margin:4% auto 2% auto; min-height:1200px;
+}
+
+#headerbackground{
+  background-color:#3682C4; height:270px;width:100%;
+}
+
+#head{
+  height:85px; width:960px; margin:0px auto auto auto; position:relative;
+}
+
+#logobar1{
+background: #015dbf; /* Old browsers */
+background: -moz-linear-gradient(top, #015dbf 0%, #7db9e8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#015dbf), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #015dbf 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #015dbf 0%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #015dbf 0%,#7db9e8 100%); /* IE10+ */
+background: linear-gradient(to bottom, #015dbf 0%,#7db9e8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#015dbf', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */ width:20px; height:100px;}
+
+
+#logobar2{background: #015dbf; /* Old browsers */
+background: -moz-linear-gradient(top, #015dbf 0%, #7db9e8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#015dbf), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #015dbf 0%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #015dbf 0%,#7db9e8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #015dbf 0%,#7db9e8 100%); /* IE10+ */
+background: linear-gradient(to bottom, #015dbf 0%,#7db9e8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#015dbf', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */ width:10px; height:100px; margin-left:30px;
+}
+
+
+#installments{
+  height:80px;width:140px;background-color:#FFF; border-radius:0px 0px 90px 90px; margin-left:750px; margin-top:-275px; z-index:2;position:absolute;
+}
+
+#imgslide{
+  z-index:1; position:relative;
+}
+
+
+#menubar{
+  padding-left:53%;z-index:2;margin-top: -2%;position: relative; float: left;width: 600px;
+}
+
+#topmenu_head{
+  background:#5697CE;
+  font-family:'微軟正黑體'; font-size:28px; color:#FFFFFF;font-weight: bold;letter-spacing: 4px; padding-right: 500px;
+}
+
+#left{
+  float:left; background-image:url(../img/leftback.png); width:130px; height:440px;box-shadow:-4px -4px 3px rgba(20%,20%,40%,0.5);
+}
+
+#right{ 
+  background-image:url(../img/rightback.png); background-repeat:repeat-y;margin-left:160px;box-shadow:-4px -4px 3px rgba(20%,20%,40%,0.5);width:800px;padding-top: 13px; min-height:auto;}
+
+
+#topmenu_news{
+  padding-left:20px;background-color:#FFF; width:770px; margin-left:15px; position:relative; z-index:1;
+}
+
+.topmenu_news_content{
+  border-bottom:dotted; border-bottom-color:#666666;border-bottom-width:thin;line-height:2.2em;padding-bottom: 5px;
+padding-top: 5px;color:#0a0ab1;font-size:18px;
+}
+
+.topmenu_news_content a:hover{
+  color:#c01120;
+}
+
+#topmenu_activity{
+  width:770px;position:relative;padding-top:2%;padding-left: 15px;
+}/*活動預告*/
+
+#topmenu_activity a{color:#0a0ab1;font-size:18px;}
+
+#right #topmenu_activity td a:hover{color:#c01120;}
+
+#topmenu_report{
+  width:770px;position:relative; z-index:1;margin-left:15px;margin-top: 2%;
+}
+
+#topmenu_report_content{
+border-bottom:dotted; border-bottom-color:#666666;border-bottom-width:thin;line-height:2.2;width:440px;margin-right:20px;color:#0a0ab1;font-size:18px;
+}
+
+#right #topmenu_report_content a:hover{color:#c01120;}
+
+
+#topmenu_job{
+  width:770px;position:relative; z-index:1;margin-left:15px;margin-top: 2%;
+}
+
+.topmenu_job_content{
+  border-bottom:dotted; border-bottom-color:#666666;border-bottom-width:thin;line-height:2.2em;padding-bottom:15px; color:#0a0ab1;font-size:18px;
+}
+
+
+#right .topmenu_job_content a:hover{
+  color:#c01120;
+}
+
+#left img{
+  float:left; margin-left:-15px; width:130px;
+}
+
+ul{list-style:none;text-decoration:none}
+
+a img{border:none}
+
+#topmenu_{
+  background-color:#FFF; width:770px; margin-left:15px;margin-top: 2%; position:relative; z-index:1;
+}
+
+#footer{
+  background-color:#333333;color:white;letter-spacing: 4px;
+line-height: 1.4em;width: 100%;clear:both;
+}
+
+#footer p{padding-left:30%;}
+
+#readmore{font-size:20px;}
+
+#readmore:hover{color:#c01120;}
+
+#submit label.error {
+  color: #F00;
+  font-weight: bold;
+}
+
+#headimg{
+  width: 960px;
+  height: 270px;
+  margin: 0px auto auto auto;
+}
+
