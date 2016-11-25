@@ -2,7 +2,7 @@
 <link href="css/j1.css" rel="stylesheet">
 <script>
 $(document).ready(function() {
-$('#right').css({"height":"8500px"});
+$('#right').css({"height":"7000px"});
 });
 </script>
 
@@ -104,9 +104,9 @@ $('#right').css({"height":"8500px"});
 
 <!-- 3 -->
 <div class="epaper_content_head"><a name='j3'>資策會新創公司實習機會媒合會</div>
-<a href="http://www.eztravel.com.tw/event/2012_hr/index.html" target="_blank">
+<!-- <a href="http://www.eztravel.com.tw/event/2012_hr/index.html" target="_blank">
 	<img src="p/job03.jpg" width="770px">
-</a>
+</a> -->
 
 <div id="epaper_content_words">
 
@@ -157,7 +157,7 @@ $('#right').css({"height":"8500px"});
 
 <!-- 4 -->
 <div class="epaper_content_head"><a name='j4'>嬌生視力保健職缺</div>
-<img src="p/job04.jpg" width="770px">
+<!-- <img src="p/job04.jpg" width="770px"> -->
 
 <div id="epaper_content_words">
 <br>

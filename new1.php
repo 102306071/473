@@ -2,7 +2,7 @@
 <link href="css/new1.css" rel="stylesheet">
 <script type="text/javascript">
 $(document).ready(function() {
-$('#right').css({"height":"7000px"});
+$('#right').css({"height":"8000px"});
 
 });//end ready
 
