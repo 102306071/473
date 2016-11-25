@@ -2,7 +2,7 @@
 <link href="css/new1.css" rel="stylesheet">
 <script type="text/javascript">
 $(document).ready(function() {
-$('#right').css({"height":"6000px"});
+$('#right').css({"height":"7000px"});
 
 });//end ready
 
@@ -106,6 +106,7 @@ $('#right').css({"height":"6000px"});
 <div class="epaper_content_head" id="n4"><a name="n4">科技部獎勵人文與社會科學領域博士候選人撰寫博士論文論壇事宜</a></div>
 
 <img src="p/news04.jpg" width="770px">
+<img src="p/news04_2.jpg" width="770px">
 
 
 <div id="epaper_content_words">
